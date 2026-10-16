@@ -7,13 +7,6 @@
 * María Belén Alay Méndez
 * Abraham Smith Romero Rondón
 
----
-
-### Despliegue del Sitio Web
-Puedes ver la versión funcional desplegada en GitHub Pages:
- **[Ver Sitio Web en GitHub Pages]()**
-
----
 ## Contexto de la página:
 Sitio web que analiza la evolución de los juegos de las generaciones pasadas vs las actuales en Guayaquil. Proyecto académico para la materia Desarrollo de Aplicaciones Web y Móviles.
 
