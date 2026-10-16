@@ -35,3 +35,8 @@ Sitio web que analiza la evolución de los juegos de las generaciones pasadas vs
 Elegimos la plantilla **Solid State** porque nos pareció la más dinámica para presentar nuestra investigación ya que nos gusta la idea de presentar la información y frases relevantes de manera visual como tarjetas. Por lo tanto, su diseño en bloques y tarjetas nos permite organizar de forma clara las frases de los entrevistados con sus fotos, mostrar el mapa de Guayaquil y agregar el formulario de participación sin que la página se vea cargada y afecte la experiencia del usuario. Además, al probarla vimos que se adapta muy bien en teléfonos móviles lo cual es un dato importante también.
 
 ![Imagen de los elementos tipo tarjeta de la plantilla Solid State](images_README/SolidState_tarjetas_captura.jpg)
+
+## Referencias
+HTML5 UP. (s. f.). *HTML5 UP*. https://html5up.net/
+
+HTML5 UP. (s. f.). *Solid State*. https://html5up.net/solid-state
