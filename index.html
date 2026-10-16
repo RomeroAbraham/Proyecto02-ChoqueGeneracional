@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Solid State by HTML5 UP</title>
+		<title>Juegos de Antes y de Ahora | DAWM</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html">Juegos de Antes y de Ahora</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -44,8 +44,8 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Solid State</h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+							<h2>Juegos de Antes y de Ahora: "Un choque generacional en Guayaquil"</h2>
+							<p>La intención de está página es mostrar el análisis que llevamos a cabo sobre los juegos en distintas generaciones y como afecta la inseguridad del país actualmente en la actividad de jugar y divertirse, motivando más a encerrarse en las casas en vez de salir a la calle y jugar al aire libre.</p>
 						</div>
 					</section>
 
@@ -130,25 +130,36 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<h2 class="major">¡Cuéntanos tu experiencia!</h2>
+							<p>Comparte tus experiencias y aporta a este espacio de nostalgia, recuerdos y aprendizaje entre generaciones.</p>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<label for="name">Nombre o Apodo</label>
+										<input type="text" name="name" id="name" required autocomplete="name"/>
 									</div>
+									<div class="field">
+										<label for="age">Rango de Edad</label>
+										<select id="age" name="age">
+										<option value="menor">Menor de 18</option>
+										<option value="adulto-joven">18–29</option>
+										<option value="adulto">30–44</option>
+										<option value="adulto-mayor">45–59</option>
+										<option value="tercera-edad">60 o más</option>
+										<option value="sin-edad">Prefiero no decirlo</option>
+										</select>
+									</div>									
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required autocomplete="email"/>
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<label for="message">Tu experiencia</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Enviar mi experiencia" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
