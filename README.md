@@ -1,4 +1,19 @@
 # Proyecto 02 - Fase 3: Desarrollo (Sprint 1)
+## Landing Page: Juegos de Antes y de Ahora ("Un choque generacional en Guayaquil")
+
+**Materia:** Desarrollo de Aplicaciones Web y Móviles (SOFG1006)  
+**Institución:** Escuela Superior Politécnica del Litoral (ESPOL)  
+**Integrantes:**
+* María Belén Alay Méndez
+* Abraham Smith Romero Rondón
+
+---
+
+### Despliegue del Sitio Web
+Puedes ver la versión funcional desplegada en GitHub Pages:
+ **[Ver Sitio Web en GitHub Pages]()**
+
+---
 ## Contexto de la página:
 Sitio web que analiza la evolución de los juegos de las generaciones pasadas vs las actuales en Guayaquil. Proyecto académico para la materia Desarrollo de Aplicaciones Web y Móviles.
 
@@ -35,6 +50,9 @@ Sitio web que analiza la evolución de los juegos de las generaciones pasadas vs
 Elegimos la plantilla **Solid State** porque nos pareció la más dinámica para presentar nuestra investigación ya que nos gusta la idea de presentar la información y frases relevantes de manera visual como tarjetas. Por lo tanto, su diseño en bloques y tarjetas nos permite organizar de forma clara las frases de los entrevistados con sus fotos, mostrar el mapa de Guayaquil y agregar el formulario de participación sin que la página se vea cargada y afecte la experiencia del usuario. Además, al probarla vimos que se adapta muy bien en teléfonos móviles lo cual es un dato importante también.
 
 ![Imagen de los elementos tipo tarjeta de la plantilla Solid State](images_README/SolidState_tarjetas_captura.jpg)
+
+### Documentación Completa
+El informe completo con el análisis de encuestas, planificación, diseño de la entrevista y bibliografía se encuentra en la carpeta `/docs` de este repositorio.
 
 ## Referencias
 HTML5 UP. (s. f.). *HTML5 UP*. https://html5up.net/
