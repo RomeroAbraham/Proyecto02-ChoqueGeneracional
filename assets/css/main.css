@@ -911,11 +911,7 @@ body.is-menu-visible #menu .inner {
 	}
 }
 
-/* ===================================================
-   DISEÑO STYLE TODOWL (DARK MINIMALIST SAAS)
-   =================================================== */
-
-/* 1. Fondo negro con orbes/resplandores difuminados */
+/* 1. Fondo negro con */
 html,
 body,
 #page-wrapper,
@@ -1059,22 +1055,14 @@ h2.major,
 }
 
 
-/* ===================================================
-   CORRECCIÓN DE IMÁGENES DENTRO DE TARJETAS Y BOTÓN
-   =================================================== */
-
-/* 1. ENCAJAR IMÁGENES DENTRO DE LAS TARJETAS (BENTO) */
 .features article {
 	overflow: hidden !important;
-	/* Corta cualquier elemento que intente salir */
 	padding: 0 0 1.5rem 0 !important;
-	/* Espaciado interno limpio */
 }
 
 .features article .image {
 	width: 100% !important;
 	margin: 0 0 1.2rem 0 !important;
-	/* Elimina margenes negativos que la desbordan */
 	border-radius: 14px 14px 0 0 !important;
 	overflow: hidden !important;
 }
@@ -1086,13 +1074,11 @@ h2.major,
 	border-radius: 14px 14px 0 0 !important;
 }
 
-/* Alineacion del contenido del testimonio dentro de la tarjeta */
 .features article h3,
 .features article p {
 	padding: 0 1.5rem !important;
 }
 
-/* CENTRADO PERFECTO DEL TEXTO EN EL BOTÓN */
 input[type="submit"],
 .button.special,
 a.special {
@@ -1104,9 +1090,7 @@ a.special {
 	border: none !important;
 	border-radius: 12px !important;
 	height: 3.2em !important;
-	/* Controla la altura total */
 	line-height: normal !important;
-	/* Elimina la desalineación heredada */
 	padding: 0 2em !important;
 	font-weight: 700 !important;
 	font-size: 0.95rem !important;
@@ -1124,11 +1108,6 @@ a.special:hover {
 	transform: translateY(-2px) scale(1.02) !important;
 	box-shadow: 0 6px 25px rgba(236, 72, 153, 0.5) !important;
 }
-
-
-/* ===================================================
-   RESTAURAR BOTÓN DE MENÚ ORIGINAL (SOLID STATE)
-   =================================================== */
 
 #header nav a[href="#menu"] {
 	display: inline-flex !important;
@@ -1151,18 +1130,15 @@ a.special:hover {
 	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
 }
 
-/* Forzar que el icono de barras (hamburguesa) aparezca a la derecha */
 #header nav a[href="#menu"]:before {
 	content: '\f0c9' !important;
 	font-family: 'Font Awesome 5 Free' !important;
 	font-weight: 900 !important;
 	order: 2 !important;
-	/* Coloca el icono a la derecha del texto */
 	margin-left: 0.2em !important;
 	font-size: 1.1em !important;
 }
 
-/* Efecto al pasar el cursor (Hover) */
 #header nav a[href="#menu"]:hover {
 	background-color: rgba(255, 255, 255, 0.12) !important;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3) !important;
