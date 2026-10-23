@@ -911,7 +911,7 @@ body.is-menu-visible #menu .inner {
 	}
 }
 
-/* 1. Fondo negro con */
+/* 1. FONDO NEGRO CON DEGRADADO */
 html,
 body,
 #page-wrapper,
@@ -980,7 +980,7 @@ body,
 	margin: 0 auto 2rem auto !important;
 }
 
-/* 4. BOTONES LIMPISIMOS */
+/* 4. BOTONES LIMPÍSIMOS*/
 .hero-actions {
 	display: flex;
 	justify-content: center;
