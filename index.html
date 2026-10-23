@@ -81,12 +81,9 @@
 					</div>
 				</div>
 			</section>
-
-			<!-- Two: Spotlight 2 (Imagen Circular al otro lado + Texto) -->
+			<!-- Two: Hallazgos Clave y Gráficos -->
 			<section id="two" class="wrapper alt spotlight style2">
 				<div class="inner">
-					<a href="#two" class="image"><img src="images/hallazgos2.jpg"
-							alt="Hallazgos de investigación" /></a>
 					<div class="content">
 						<h2 class="major">Hallazgos de las Entrevistas</h2>
 						<p>A través de las entrevistas identificamos tres patrones fundamentales en la comunidad de
@@ -99,62 +96,106 @@
 							<li><strong>Desuso de Juegos Tradicionales:</strong> Dinámicas como la rayuela, el trompo y
 								las canicas han sido sustituidas casi en su totalidad.</li>
 						</ul>
+
+						<!-- Subsección: Estadísticas Clave (Barras de Progreso) -->
+						<div class="hallazgos-graficos" style="margin-top: 2rem;">
+							<h3 style="color: #f8fafc; font-size: 1.1rem; margin-bottom: 1rem;">Estadísticas Clave</h3>
+
+							<div class="stat-bar" style="margin-bottom: 1.2rem;">
+								<div class="stat-info"
+									style="display: flex; justify-content: space-between; margin-bottom: 0.3rem;">
+									<span style="font-size: 0.9rem; color: #cbd5e1;">Inseguridad limita jugar en
+										espacios públicos</span>
+									<span style="color: #c084fc; font-weight: bold;">100%</span>
+								</div>
+								<div
+									style="background: rgba(255,255,255,0.08); border-radius: 10px; height: 8px; overflow: hidden;">
+									<div
+										style="width: 100%; background: linear-gradient(90deg, #a855f7, #ec4899); height: 100%;">
+									</div>
+								</div>
+							</div>
+
+							<div class="stat-bar">
+								<div class="stat-info"
+									style="display: flex; justify-content: space-between; margin-bottom: 0.3rem;">
+									<span style="font-size: 0.9rem; color: #cbd5e1;">Preferencia por videojuegos /
+										pantallas en jóvenes</span>
+									<span style="color: #38bdf8; font-weight: bold;">85%</span>
+								</div>
+								<div
+									style="background: rgba(255,255,255,0.08); border-radius: 10px; height: 8px; overflow: hidden;">
+									<div
+										style="width: 85%; background: linear-gradient(90deg, #38bdf8, #a855f7); height: 100%;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Subsección: Tarjetas de Métricas Rápidas -->
+						<div class="grid-stats"
+							style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem;">
+							<div
+								style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem; text-align: center;">
+								<h2 style="font-size: 2.2rem; color: #ec4899; margin: 0; line-height: 1;">100%</h2>
+								<p
+									style="font-size: 0.8rem; margin: 0.5rem 0 0 0; color: #94a3b8; text-transform: none;">
+									Temor al jugar en la calle por la delincuencia</p>
+							</div>
+							<div
+								style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem; text-align: center;">
+								<h2 style="font-size: 2.2rem; color: #38bdf8; margin: 0; line-height: 1;">11</h2>
+								<p
+									style="font-size: 0.8rem; margin: 0.5rem 0 0 0; color: #94a3b8; text-transform: none;">
+									Personas entrevistadas entre jóvenes y adultos</p>
+							</div>
+						</div>
+
+						<!-- Subsección: Gráfico Donut de Chart.js -->
+						<div style="max-width: 320px; margin: 2.5rem auto 0 auto; text-align: center;">
+							<h3 style="color: #f8fafc; font-size: 1rem; margin-bottom: 1rem;">Distribución de Tipos de
+								Juegos</h3>
+							<canvas id="graficoJuegos"></canvas>
+						</div>
 					</div>
 				</div>
+
+				<!-- Script de Inicialización de Chart.js -->
+				<script>
+					document.addEventListener("DOMContentLoaded", function () {
+						const ctx = document.getElementById('graficoJuegos').getContext('2d');
+						new Chart(ctx, {
+							type: 'doughnut',
+							data: {
+								labels: ['Videojuegos', 'Juegos de Calle', 'Juegos de Mesa / Juguetes'],
+								datasets: [{
+									data: [65, 20, 15],
+									backgroundColor: ['#a855f7', '#ec4899', '#38bdf8'],
+									borderWidth: 0
+								}]
+							},
+							options: {
+								responsive: true,
+								plugins: {
+									legend: {
+										position: 'bottom',
+										labels: {
+											color: '#cbd5e1',
+											font: { size: 12 }
+										}
+									}
+								}
+							}
+						});
+					});
+				</script>
 			</section>
-
-			<!-- En la sección de Hallazgos (#two) -->
-			<div class="hallazgos-graficos" style="margin-top: 2rem;">
-				<h3>Estadísticas Clave de las Entrevistas</h3>
-
-				<div class="stat-bar">
-					<div class="stat-info"
-						style="display: flex; justify-content: space-between; margin-bottom: 0.3rem;">
-						<span>Inseguridad limita jugar en espacios públicos</span>
-						<span style="color: #c084fc; font-weight: bold;">100%</span>
-					</div>
-					<div
-						style="background: rgba(255,255,255,0.08); border-radius: 10px; height: 10px; overflow: hidden;">
-						<div style="width: 100%; background: linear-gradient(90deg, #a855f7, #ec4899); height: 100%;">
-						</div>
-					</div>
-				</div>
-
-				<div class="stat-bar" style="margin-top: 1.2rem;">
-					<div class="stat-info"
-						style="display: flex; justify-content: space-between; margin-bottom: 0.3rem;">
-						<span>Preferencia por videojuegos / pantallas en jóvenes</span>
-						<span style="color: #38bdf8; font-weight: bold;">85%</span>
-					</div>
-					<div
-						style="background: rgba(255,255,255,0.08); border-radius: 10px; height: 10px; overflow: hidden;">
-						<div style="width: 85%; background: linear-gradient(90deg, #38bdf8, #a855f7); height: 100%;">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="grid-stats"
-				style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 2rem;">
-				<div
-					style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1.2rem; text-align: center;">
-					<h2 style="font-size: 2.5rem; color: #ec4899; margin: 0;">100%</h2>
-					<p style="font-size: 0.85rem; margin: 0; color: #94a3b8;">Siente temor al jugar en la calle por la
-						delincuencia</p>
-				</div>
-				<div
-					style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1.2rem; text-align: center;">
-					<h2 style="font-size: 2.5rem; color: #38bdf8; margin: 0;">11</h2>
-					<p style="font-size: 0.85rem; margin: 0; color: #94a3b8;">Personas entrevistadas entre jóvenes y
-						adultos</p>
-				</div>
-			</div>
 
 			<!-- Three: Spotlight 3 (Recursos Multimedia) -->
 			<section id="three" class="wrapper spotlight style3">
 				<div class="inner">
 					<div class="content">
-						<h2 class="major">Evidencia Multimedia</h2>
+						<h2 class="major">Referencia Multimedia</h2>
 						<p>Documental de referencia sobre juegos tradicionales en Guayaquil:</p>
 
 						<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/CFEgiAC1kYo"
